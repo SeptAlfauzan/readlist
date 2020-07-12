@@ -12,8 +12,8 @@ const BooksList = () => {
             </ul>
         </div>
     ) : (
-        <div>
-            Free time
+        <div style={{textAlign: "center"}}>
+            enjoy ur free time
         </div>
         );
 }

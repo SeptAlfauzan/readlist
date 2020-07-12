@@ -15,6 +15,9 @@ h2, h3{
   font-weight: 300;
   text-align: center;
 }
+.book-detail{
+  width: 440px;
+}
 .book-detail:hover{
   text-decoration: line-through;
 }
@@ -44,6 +47,7 @@ ul li small{
   border-radius: 10px;
   padding: 20px;
   display: grid;
+  width: 440px;
 }
 
 .add-form input{
