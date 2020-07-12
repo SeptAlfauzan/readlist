@@ -1,36 +1,71 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
 }
- h2, h3{
-   font-weight: 300;
-   text-align: center;
- }
- .container{
-   margin: auto;
-   display: grid;
-   justify-content: center;
-   width: 400px;
- }
+h2, h3{
+  font-weight: 300;
+  text-align: center;
+}
+.book-detail:hover{
+  text-decoration: line-through;
+}
+.container{
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  width: 400px;
+}
 
- ul li {
-   width: 400px;
-   margin-left: -40px;
-   font-size: 300;
-   list-style: none;
-   background-color: antiquewhite;
-   padding: 5px 20px;
-   border-radius: 10px;
- }
- ul li small{
-   color: grey;
- }
+ul li {
+  width: 400px;
+  margin-left: -40px;
+  font-size: 300;
+  list-style: none;
+  background-color: antiquewhite;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+ul li small{
+  color: grey;
+}
+
+.add-form{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+}
+
+.add-form input{
+  margin: 5px 0;
+  border: 1px solid rgb(204, 133, 46);
+  background-color: rgb(250, 245, 238);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.add-form input:focus{
+  outline: none;
+  transition: ease-in 0.1s;
+  border: 2px solid rgb(204, 133, 46);
+}
+
+.add-form button{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: brown;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+}
